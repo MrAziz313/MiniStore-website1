@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MiniStore Website</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  position-fixed top-0  w-100">
+        <div class="container-fluid mb-3">
+          <a class="navbar-brand fs-1" href="#">MiniStore.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class=" nav-link  me-4 " aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="  nav-link me-4  " aria-current="page" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4 " aria-current="page" href="#"> PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4 " aria-current="page" href="#">WATCHES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4 " aria-current="page" href="#">
+                    SALE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4  " aria-current="page" href="#">
+                    BLOG</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link    dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGE
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Shop</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                </ul>
+              </li>            
+            </ul>
+            <li class="d-flex align-items-center gap-3  ">
+              <div class="nav-icon">
+                
+                  <i  class="ri-search-line me-2 "></i>
+                  <i class="ri-user-3-fill me-2"></i>
+                  <i class="ri-shopping-cart-2-fill me-4"></i>
+              </div>
+            </li>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <section id="hero" class="bg-body-tertiary">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade ">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container ">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-md-6">
+                    <div class="main">
+                      <h1 class="txt-hero mb-5  ">YOUR PRODUCTS ARE GTEAT.</h1>
+                      <div class="link-btn">
+                        <a class="bg-black btn rounded-0 py-2 fs-5 px-4 text-decoration-none text-white" href="#">SHOP PRODUCT</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="hero_img w-100">
+                      <img src="./images/banner-image.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container bg-primary">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-md-6">
+                    <div class="main">
+                      <h1 class="txt-hero mb-5  ">YOUR PRODUCTS ARE GTEAT.</h1>
+                      <div class="link-btn">
+                        <a class="bg-black btn rounded-0 py-2 fs-5 px-4 text-decoration-none text-white" href="#">SHOP PRODUCT</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="hero_img w-100">
+                      <img src="./images/banner-image.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container bg-success">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-md-6">
+                    <div class="main">
+                      <h1 class="txt-hero mb-5  ">YOUR PRODUCTS ARE GTEAT.</h1>
+                      <div class="link-btn">
+                        <a class="bg-black btn rounded-0 py-2 fs-5 px-4 text-decoration-none text-white" href="#">SHOP PRODUCT</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="hero_img w-100">
+                      <img src="./images/banner-image.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- second section -->
+       <section>
+        <div class="container py-5 my-5">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="second_main d-flex align-items-baseline  gap-2">
+                <div class="icn2 ">
+                  <i class="ri-shopping-cart-2-line fs-2"></i>
+                </div>
+                <div class="second_txt">
+                  <h2>Free delivery</h2>
+                  <p>
+                    Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-3">
+              <div class="second_main d-flex align-items-baseline  gap-2">
+                <div class="icn2">
+                  <i class="ri-award-line fs-2"></i>
+                </div>
+                <div class="second_txt">
+                  <h2>Quality guarantee</h2>
+                  <p>Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="second_main d-flex align-items-baseline  gap-2">
+                <div class="icn2">
+                  <i class="ri-price-tag-3-line fs-2"></i>
+                </div>
+                <div class="second_txt">
+                  <h2>Daily offers</h2>
+                  <p>Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="second_main d-flex align-items-baseline  gap-2">
+                <div class="icn2">
+                  <i class="ri-secure-payment-line fs-2"></i>
+                </div>
+                <div class="second_txt">
+                  <h2>100% secure payment</h2>
+                  <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- third section -->
+        <section>
+          <div class="container py-5">
+            <div class="third_txt d-flex justify-content-between align-items-center pb-3">
+              <h3 class="display-6 text-uppercase ">Mobile Products</h3>
+              <a class="text-decoration-underline" href="#">GO TO SHOP</a>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+              
+               <div class="product-img mb-3 w-100 position-relative">
+                <img class="img-fluid" src="./images/product-item1.jpg" alt="">
+                <div class="cart-concern position-absolute  ">
+                  <div class="cart-button bg-black  rounded-1  d-flex justify-content-center">
+                    <a href="#" class="btn text-white px-5 py-2">Add to Cart   <i class="ri-shopping-cart-2-line ms-2"></i></a>
+                  
+
+                  </div>
+               </div>
+             
+              </div>
+               <div class="product-price d-flex justify-content-between align-items-baseline ">
+                <h3 class=" text-uppercase fw-lighter fs-3"><a class="iphone" href="#">iphone 10</a></h3>
+                <span class="text-primary fs-4">$980</span>
+               </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product-img mb-3 w-100 position-relative">
+                  <img class="img-fluid" src="./images/product-item2.jpg" alt="">
+                  <div class="cart-concern position-absolute  ">
+                    <div class="cart-button bg-black  rounded-1  d-flex justify-content-center">
+                      <a href="#" class="btn text-white px-5 py-2">Add to Cart   <i class="ri-shopping-cart-2-line ms-2"></i></a>
+                    
+  
+                    </div>
+                 </div>
+                 </div>
+                 <div class="product-price d-flex justify-content-between align-items-baseline ">
+                  <h3 class="iphone text-uppercase fw-lighter fs-3"><a class="iphone" href="#">iphone 11</a></h3>
+                  <span class="text-primary fs-4">$1100</span>
+                 </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product-img mb-3 w-100 position-relative">
+                  <img class="img-fluid" src="./images/product-item3.jpg" alt="">
+                  <div class="cart-concern position-absolute  ">
+                    <div class="cart-button bg-black  rounded-1  d-flex justify-content-center">
+                      <a href="#" class="btn text-white px-5 py-2">Add to Cart   <i class="ri-shopping-cart-2-line ms-2"></i></a>
+                    
+  
+                    </div>
+                 </div>
+                 </div>
+                 <div class="product-price d-flex justify-content-between align-items-baseline ">
+                  <h3 class="iphone text-uppercase fw-lighter fs-3"><a class="iphone" href="#">iphone 8</a></h3>
+                  <span class="text-primary fs-4">$780</span>
+                 </div>
+              </div>
+              <div class="col-md-3">
+                
+                <div class="product-img mb-3 w-100 position-relative ">
+                  <img class="img-fluid" src="./images/product-item4.jpg" alt="">
+                  <div class="cart-concern position-absolute  ">
+                    <div class="cart-button bg-black  rounded-1  d-flex justify-content-center">
+                      <a href="#" class="btn text-white px-5 py-2">Add to Cart   <i class="ri-shopping-cart-2-line ms-2"></i></a>
+                    
+  
+                    </div>
+                 </div>
+                 </div>
+                 <div class="product-price d-flex justify-content-between align-items-baseline ">
+                  <h3 class="iphone text-uppercase fw-lighter fs-3"><a class="iphone" href="#">iphone 13</a></h3>
+                  <span class="text-primary fs-4">$1500</span>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container py-5">
+            <div class="third_txt d-flex justify-content-between align-items-center pb-3">
+              <h3 class="display-6 text-uppercase ">Smart Watches</h3>
+              <a class="text-decoration-underline" href="#">GO TO SHOP</a>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+              
+               <div class="product-img mb-3 w-100 position-relative">
+                <img class="img-fluid" src="./images/product-item6.jpg" alt="">
+                <div class="cart-concern position-absolute  ">
+                  <div class="cart-button bg-black  rounded-1  d-flex justify-content-center">
+                    <a href="#" class="btn text-white px-5 py-2">Add to Cart   <i class="ri-shopping-cart-2-line ms-2"></i></a>
+                  
+
+                  </div>
+               </div>
+             
+              </div>
+               <div class="product-price d-flex justify-content-between align-items-baseline ">
+                <h3 class=" text-uppercase fs-5"><a class="iphone" href="#">Pink watch</a></h3>
+                <span class="text-primary fs-4">$870</span>
+               </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product-img mb-3 w-100 position-relative">
+                  <img class="img-fluid" src="./images/product-item7.jpg" alt="">
+                  <div class="cart-concern position-absolute  ">
+                    <div class="cart-button bg-black  rounded-1  d-flex justify-content-center">
+                      <a href="#" class="btn text-white px-5 py-2">Add to Cart   <i class="ri-shopping-cart-2-line ms-2"></i></a>
+                    
+  
+                    </div>
+                 </div>
+                 </div>
+                 <div class="product-price d-flex justify-content-between align-items-baseline ">
+                  <h3 class="iphone text-uppercase  fs-5"><a class="iphone" href="#">heavy Watch</a></h3>
+                  <span class="text-primary fs-4">$680</span>
+                 </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product-img mb-3 w-100 position-relative">
+                  <img class="img-fluid" src="./images/product-item8.jpg" alt="">
+                  <div class="cart-concern position-absolute  ">
+                    <div class="cart-button bg-black  rounded-1  d-flex justify-content-center">
+                      <a href="#" class="btn text-white px-5 py-2">Add to Cart   <i class="ri-shopping-cart-2-line ms-2"></i></a>
+                    
+  
+                    </div>
+                 </div>
+                 </div>
+                 <div class="product-price d-flex justify-content-between align-items-baseline ">
+                  <h3 class="iphone text-uppercase  fs-5"><a class="iphone" href="#">sppoted watch</a></h3>
+                  <span class="text-primary fs-4">$750</span>
+                 </div>
+              </div>
+              <div class="col-md-3">
+                
+                <div class="product-img mb-3 w-100 position-relative ">
+                  <img class="img-fluid" src="./images/product-item9.jpg" alt="">
+                  <div class="cart-concern position-absolute  ">
+                    <div class="cart-button bg-black  rounded-1  d-flex justify-content-center">
+                      <a href="#" class="btn text-white px-5 py-2">Add to Cart   <i class="ri-shopping-cart-2-line ms-2"></i></a>
+                    
+  
+                    </div>
+                 </div>
+                 </div>
+                 <div class="product-price d-flex justify-content-between align-items-baseline ">
+                  <h3 class="iphone text-uppercase  fs-5"><a class="iphone" href="#">black watch</a></h3>
+                  <span class="text-primary fs-4">$650</span>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="yearly_sale" class="bg-light-blue overflow-hidden mt-5 padding-xlarge " style="background-image: url(images/single-image1.png); background-position: right; background-repeat: no-repeat;">
+<div class="container py-5  ">
+  <div class="row  ">
+    <div class="col-12 col-md-6 ">
+<div class="sale_txt text-content offset-4 padding-medium   pt-5">
+<h3 class="">10% off</h3>
+<h2 class="display-2 text-uppercase text-dark mb-5">New year sale</h2>
+<a href="index.html" class="btn btn-medium btn-dark text-uppercase rounded-0 py-2 px-5">Shop Sale</a>
+    </div>
+    <div class="col-12 col-md-6"></div>
+  </div>
+</div>
+        </section>
+<!-- nvn -->
+        <section>
+          <div class="container py-5">
+            <div class="third_txt d-flex justify-content-between align-items-center pb-3">
+              <h3 class="display-6 text-uppercase ">Latest Posts</h3>
+              <a class="text-decoration-underline text-uppercase" href="#">read blog</a>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+              
+               <div class="product-img mb-3 w-100 position-relative">
+                <img class="img-fluid" src="./images/post-item1.jpg" alt="">
+             
+             
+              </div>
+               <div class="product-price ms-4">
+                <span class="text-uppercase">feb 22, 2023</span>
+                <span class="text-uppercase">- Gadgets</span>
+                <h3 class="card-title">
+                  <a class="text-uppercase fs-4 fw-light" href="#">Get some cool gadgets in 2023</a>
+                </h3>
+               </div>
+             
+              </div>
+              <div class="col-md-4">
+                <div class="product-img mb-3 w-100 position-relative">
+                  <img class="img-fluid" src="./images/post-item2.jpg" alt="">
+                 
+                 </div>
+                 <div class="product-price ms-4">
+                  <span class="text-uppercase">feb 25, 2023</span>
+                  <span class="text-uppercase">- Technology</span>
+                  <h3 class="card-title">
+                    <a class="text-uppercase fs-4 fw-light" href="#">Technology Hack You Won't Get</a>
+                  </h3>
+                 </div>
+                 </div>
+                
+            
+              <div class="col-md-4">
+                <div class="product-img mb-3 w-100 ">
+                  <img class="img-fluid" src="./images/post-item3.jpg" alt="">
+                 </div>
+                 <div class="product-price ms-4">
+                  <span class="text-uppercase">feb 25, 2023</span>
+                  <span class="text-uppercase">- Camera</span>
+                  <h3 class="card-title">
+                    <a class="text-uppercase fs-4 fw-light" href="#">Top 10 Small Camera In The World</a>
+                  </h3>
+                 </div>
+                 </div>
+                
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+<!-- zsdfchbhj -->
+ <section>
+  <div class="container py-5">
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         <div class="main_carousel text-center">
+          <i class="ri-double-quotes-r fs-1"></i>
+          <blockquote class="fs-1 fw-light">“A blog is a digital publication that can complement a website or exist independently. A blog may include articles, short posts, listicles, infographics, videos, and other digital content.”</blockquote>
+          <span class="fa fa-star checked text-primary"></span>
+<span class="fa fa-star checked text-primary"></span>
+<span class="fa fa-star checked text-primary"></span>
+<span class="fa fa-star checked text-primary "></span>
+<span class="fa fa-star empty"></span>
+<div class="author-detail">
+  <div class="name text-dark text-uppercase pt-2">Emma Chamberlin</div>
+</div>
+         </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="main_carousel text-center">
+            <i class="ri-double-quotes-r fs-1"></i>
+            <blockquote class="fs-1 fw-light">“A blog is a digital publication that can complement a website or exist independently. A blog may include articles, short posts, listicles, infographics, videos, and other digital content.”</blockquote>
+            <span class="fa fa-star checked text-primary"></span>
+  <span class="fa fa-star checked text-primary"></span>
+  <span class="fa fa-star checked text-primary"></span>
+  <span class="fa fa-star checked text-primary "></span>
+  <span class="fa fa-star empty"></span>
+  <div class="author-detail">
+    <div class="name text-dark text-uppercase pt-2">Emma Chamberlin</div>
+  </div>
+           </div>
+        </div>
+        <div class="carousel-item">
+          <div class="main_carousel text-center">
+            <i class="ri-double-quotes-r fs-1"></i>
+            <blockquote class="fs-1 fw-light">“A blog is a digital publication that can complement a website or exist independently. A blog may include articles, short posts, listicles, infographics, videos, and other digital content.”</blockquote>
+            <span class="fa fa-star checked text-primary"></span>
+  <span class="fa fa-star checked text-primary"></span>
+  <span class="fa fa-star checked text-primary"></span>
+  <span class="fa fa-star checked text-primary "></span>
+  <span class="fa fa-star empty"></span>
+  <div class="author-detail">
+    <div class="name text-dark text-uppercase pt-2">Emma Chamberlin</div>
+  </div>
+           </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+ 
+ </section>
+
+ <section>
+  <div class="container bg-dark py-5 my-5">
+    <div class="row  justify-content-center">
+      <div class="col-12 col-md-7  d-flex justify-content-center align-items-center">
+        <div class="subscribe_contant ">
+          <h2 class="display-7 text-uppercase text-light">Subscribe Us Now</h2>
+          <p class="text-light-emphasis">Get latest news, updates and deals directly mailed to your inbox.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-5 d-flex justify-content-center align-items-center">
+        <form class="subscription-form validate">
+          <div class="input-group ">
+            <input class="input_subscribe  form-control rounded-0" type="email" name="EMAIL" placeholder="Your email address here" required="">
+            <button class="btn  btn-primary text-uppercase rounded-0" type="submit" name="subscribe">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+ </section>
+
+ <section>
+  <div class="container py-5">
+    <div class="third_txt ">
+      <h3 class="display-6 text-uppercase text-center">Shop Our Insta</h3>
+     
+    </div>
+
+   
+     
+    <div class="d-flex flex-wrap ">
+      <figure class="instagram-item pe-2 position-relative">
+        
+          <img src="images/insta-item1.jpg" alt="instagram" class="img-fluid">
+          <div class="cart-concern position-absolute  ">
+            <div class=" bg-white px-3 rounded-1  d-flex justify-content-center">
+              <a href="#" > <i class="ri-instagram-line fs-1"></i></a>
+            
+
+            </div>
+         </div>
+        </a>
+      </figure>
+      <figure class="instagram-item pe-2 position-relative ">
+       
+          <img src="images/insta-item4.jpg" alt="instagram" class="img-fluid">
+          <div class="cart-concern position-absolute  ">
+            <div class=" bg-white px-3 rounded-1  d-flex justify-content-center">
+              <a href="#" > <i class="ri-instagram-line fs-1"></i></a>
+            
+
+            </div>
+         </div>
+        </a>
+      </figure>
+      <figure class="instagram-item pe-2 position-relative">
+       
+          <img src="images/insta-item3.jpg" alt="instagram" class="img-fluid">
+          <div class="cart-concern position-absolute  ">
+            <div class=" bg-white px-3 rounded-1  d-flex justify-content-center">
+              <a href="#" > <i class="ri-instagram-line fs-1"></i></a>
+            
+
+            </div>
+         </div>
+        </a>
+      </figure>
+      <figure class="instagram-item pe-2 position-relative">
+        
+          <img src="images/insta-item4.jpg" alt="instagram" class="img-fluid">
+          <div class="cart-concern position-absolute  ">
+            <div class=" bg-white px-3 rounded-1  d-flex justify-content-center">
+              <a href="#" > <i class="ri-instagram-line fs-1"></i></a>
+            
+
+            </div>
+         </div>
+        </a>
+      </figure>
+      <figure class="instagram-item pe-2 position-relative">
+       
+          <img src="images/insta-item5.jpg" alt="instagram" class="img-fluid">
+          <div class="cart-concern position-absolute  ">
+            <div class=" bg-white px-3 rounded-1  d-flex justify-content-center">
+              <a href="#" > <i class="ri-instagram-line fs-1"></i></a>
+            
+
+            </div>
+         </div>
+        </a>
+      </figure>
+    </div>
+       
+     
+   
+  </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="footer-top-area">
+      <div class="row d-flex flex-wrap justify-content-between">
+        <div class="col-lg-3 col-sm-6 pb-3">
+          <div class="footer-menu">
+            <img src="images/main-logo.png" alt="logo">
+            <p class="text-light-emphasis">Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio erat nullam fringilla.</p>
+            <div class="social-links">
+              <ul class="d-flex list-unstyled">
+                <li>
+                  <a href="#">
+                    <i class="ri-facebook-fill fs-4 me-4"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="ri-instagram-line fs-4 me-4"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="ri-twitter-fill fs-4 me-4"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="ri-linkedin-fill fs-4 me-4"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="ri-youtube-fill fs-4 "></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-6 pb-3">
+          <div class="footer-menu text-uppercase">
+            <h5 class="widget-title pb-2">Quick Links</h5>
+            <ul class="menu-list list-unstyled text-uppercase">
+              <li class="menu-item pb-2">
+                <a href="#">Home</a>
+              </li>
+              <li class="menu-item pb-2">
+                <a href="#">About</a>
+              </li>
+              <li class="menu-item pb-2">
+                <a href="#">Shop</a>
+              </li>
+              <li class="menu-item pb-2">
+                <a href="#">Blogs</a>
+              </li>
+              <li class="menu-item pb-2">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 pb-3">
+          <div class="footer-menu text-uppercase">
+            <h5 class="widget-title pb-2">Help &amp; Info Help</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="menu-item pb-2">
+                <a href="#">Track Your Order</a>
+              </li>
+              <li class="menu-item pb-2">
+                <a href="#">Returns Policies</a>
+              </li>
+              <li class="menu-item pb-2">
+                <a href="#">Shipping + Delivery</a>
+              </li>
+              <li class="menu-item pb-2">
+                <a href="#">Contact Us</a>
+              </li>
+              <li class="menu-item pb-2">
+                <a href="#">Faqs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 pb-3">
+          <div class="footer-menu contact-item">
+            <h5 class="widget-title text-uppercase pb-2">Contact Us</h5>
+            <p>Do you have any queries or suggestions? <a href="mailto:">yourinfo@gmail.com</a>
+            </p>
+            <p>If you need support? Just give us a call. <a href="">+307 4826305</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div id="footer-bottom">
+  <div class="container">
+    <div class="row d-flex flex-wrap justify-content-between">
+      <div class="col-md-4 col-sm-6">
+        <div class="Shipping d-flex">
+          <p>We ship with:</p>
+          <div class="card-wrap ps-2">
+            <img src="images/dhl.png" alt="visa">
+            <img src="images/shippingcard.png" alt="mastercard">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="payment-method d-flex">
+          <p>Payment options:</p>
+          <div class="card-wrap ps-2">
+            <img src="images/visa.jpg" alt="visa">
+            <img src="images/mastercard.jpg" alt="mastercard">
+            <img src="images/paypal.jpg" alt="paypal">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="copyright">
+          <p>© Copyright 2024 MiniStore. Design by <a href="https://templatesjungle.com/">TemplatesJungle</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
